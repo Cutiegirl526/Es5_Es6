@@ -7,6 +7,8 @@
 //function takes in 1 parameter 'array'
 //output should be [0,-1,-3,2]
 
+//--------------------------------------------------
+
 /* Es5 function
 function invert(arr){ 
   var myArray = [];
@@ -24,6 +26,9 @@ return myArray;
 
 console.log(invert([0,1,-2,3]))
 */
+
+//--------------------------------------------------
+
 
 //Es6
 /*funtion invert(arr){
@@ -55,6 +60,8 @@ function varTest(){
 }
 varTest();
 
+//--------------------------------------------------
+
 
 function letTest(){
   let x = 1;
@@ -81,6 +88,9 @@ console.log(square(3,3));
 function square(a,b){
   return a*b;
 }*/
+
+//--------------------------------------------------
+
 
 //Es6 arrow functions _> global function
 /*let square = num => return num * num //return 16
@@ -111,3 +121,16 @@ arr.map((entry) =>{
   console.log(entry);
 })*/
 
+//--------------------------------------------------
+
+
+//Morning Exercise
+
+function rate(pay){
+  console.log('$'+ pay.toFixed(2));
+  return rate (3);
+}
+
+/*var formatMoney = amt => '$' + amt.toFixed(2);
+
+console.log(formatMoney(3));*/
