@@ -40,7 +40,7 @@ console.log(invert([0,1,-2,3]))
 
 //ie of var and let
 
-var arr = [5];
+/*var arr = [5];
 
 let arr = [5];
 
@@ -65,4 +65,49 @@ function letTest(){
   }
   console.log(x);
 } 
-letTest();
+letTest();*/
+
+/*const PI = 3.1458; //use all caps
+console.log(PI);
+PI = 22;
+console.log(PI);*/
+
+//Arrow functions with Es5 _> Not Global Functions
+/*var square = function(a,b){
+  return a*b;
+}
+console.log(square(3,3));
+
+function square(a,b){
+  return a*b;
+}*/
+
+//Es6 arrow functions _> global function
+/*let square = num => return num * num //return 16
+
+square(4);
+
+//Change to Es6
+function ageCalc(born, currYear){
+  var age = currYear - born;
+  return age;
+}
+
+//Es6
+
+let ageCalc = (born, currYear) => return currYear - born
+
+ageCalc(2017)*/
+
+//functional array method
+/*var arr = [1,2,3,4];
+arr.forEach((entry) =>{
+  console.log(entry*2);
+  console.log(arr);
+})
+
+var arr = [1,2,3,4];
+arr.map((entry) =>{
+  console.log(entry);
+})*/
+
