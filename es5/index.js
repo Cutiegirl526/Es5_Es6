@@ -126,11 +126,12 @@ arr.map((entry) =>{
 
 //Morning Exercise
 
-function rate(pay){
+/*function rate(pay){
   console.log('$'+ pay.toFixed(2));
   return rate (3);
-}
+}*/
 
 /*var formatMoney = amt => '$' + amt.toFixed(2);
 
 console.log(formatMoney(3));*/
+
